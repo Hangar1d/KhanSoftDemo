@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    margin: 50px;
+}
+h1{
+    margin-top: 50px;
+    background-color: chocolate;
+    border-style: solid;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-family: Oswald;
+    font-size: larger;
+}
+.paragraph{
+    color: white;
+    font-family: Oswald;
+}
+a:link{
+    font-family: Oswald;
+    color: white;
+}
+a:hover{
+    color: rgb(159, 76, 17);
+}
+a:active{
+    color: rgb(144, 65, 9);
+    font-size: 1.1em;
+}
+#contact{
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    background-color: chocolate;
+    border-style: solid;
+    border-radius: 20px;
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+#footer{
+    margin-top: 50px;
+    color: white;
+    font-family: Oswald;
+    text-align: center;
+}
+
