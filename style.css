@@ -117,7 +117,7 @@ button:hover {
 /* Toggle button */
 #chatbot-toggle {
     position: fixed;
-    bottom: 220px;
+    bottom: 200px;
     right: 190px;
     background-color: chocolate;
     color: white;
