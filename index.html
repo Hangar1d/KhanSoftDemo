@@ -19,23 +19,18 @@
     <br />
     <div class="paragraph">
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo
-        repellendus facilis dolor id alias mollitia, vero, dolores quae,
-        laudantium a ea tempora deleniti molestiae aspernatur. Illo incidunt
-        temporibus velit eos.
+        At KhanSoft LLC, we specialize in crafting cutting-edge software
+        solutions that propel your business into the future. Our expertise spans
+        across software development, web development, and chat-bots, all
+        designed to meet the dynamic needs of the modern digital landscape. We
+        harness the latest technologies to create innovative, user-friendly, and
+        efficient applications that give your business a competitive edge.
+        Whether you're looking to build a robust web platform or integrate
+        intelligent chat-bots into your customer service, our team is dedicated
+        to delivering futuristic solutions that drive growth and success.
+        Embrace the future with KhanSoft LLC, where technology meets ingenuity.
       </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo
-        repellendus facilis dolor id alias mollitia, vero, dolores quae,
-        laudantium a ea tempora deleniti molestiae aspernatur. Illo incidunt
-        temporibus velit eos.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo
-        repellendus facilis dolor id alias mollitia, vero, dolores quae,
-        laudantium a ea tempora deleniti molestiae aspernatur. Illo incidunt
-        temporibus velit eos.
-      </p>
+      <p></p>
     </div>
     <h1></h1>
     <div class="button">
@@ -44,9 +39,28 @@
         Contact
       </a>
     </div>
+    <!-- Chatbot toggle button -->
+    <button id="chatbot-toggle" onclick="toggleChatbot()">🤖</button>
+
+    <div class="chatbot-container" id="chatbot-container">
+      <div class="chat-header">
+        <h2>KhanSoft Chatbot</h2>
+      </div>
+      <div class="chat-body" id="chat-body">
+        <div class="message bot-message">
+          Hello! How can I assist you today?
+        </div>
+      </div>
+      <div class="chat-input">
+        <input type="text" id="user-input" placeholder="Type a message..." />
+        <button onclick="sendMessage()">Send</button>
+      </div>
+    </div>
     <footer id="footer">
       Founder: KHAN <br />
       &copy; copyright reserved <br />
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
